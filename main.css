@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;    
+    background-color: black;
+}
+.titel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    width: 100svw;
+    height: 10svh;
+    position: fixed;  
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px;
+    border-style: solid;    
+    border-color: white;
+    z-index: 1;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    width: 100svw;
+    height: 10svh;  
+    border-top: 1px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-style: solid;    
+    border-color: white;
+}
+.nav{
+    width: 20svw;
+    height: 100dvh;    
+    display:flex;
+    position: fixed;
+    padding-top: 15svh;
+    border-top: 0;
+    border-left: 0;
+    border-right: 1px;
+    border-bottom: 0;
+    border-style: solid;    
+    border-color: white;
+}
+.list{
+    list-style: none;
+    font-size: 5svh;    
+}
+.list li a{
+    color:white;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+.textsection{    
+    width: 80svw;
+    height: auto;
+    min-height: 200dvh;
+    margin-left: 20svw;
+    padding-top: 10svh;
+}
+
+.text{
+    width: 60svw;
+    margin: 2svw;
+    padding: 3svw;
+    color: white;
+    background-color: rgb(23, 23, 119);
+    border-radius: 10px;
+    font-size: 24px;   
+}
+.textsection h1{
+    color: white;
+    padding-left: 5svw;
+    margin-top: 5svh;  
+    background-color: black;  
+}
+.textsection h2{
+    color: white;
+    padding-left: 5svw;
+    margin-top: 2svh; 
+    background-color: black;   
+}
+.textsection h3{
+    color: white;
+    padding-left: 5svw;
+    margin-top: 2svh; 
+    background-color: black;   
+}
+.form input{
+    width: 60svw;
+    height: 2svh;
+    padding: 1svw;
+    color: white;
+    background-color: rgb(23, 23, 119);
+    border-radius: 10px;    
+    font-size: 24px; 
+}
+.form p{
+    color: white;
+    width: 64svw; 
+    height: 15svh; 
+    font-size: 5svh;  
+    margin-top: 2svh; 
+    margin-left: 3svw;
+    background-color: black;
+    text-align: center;  
+    border-radius: 10px; 
+}
+.form button{
+    width: 60svw;
+    height: 12svh;
+    padding: 1svw;
+    color: white;
+    background-color: rgb(23, 23, 119);
+    border-radius: 10px;    
+    font-size: 24px; 
+    margin-top: 2svh;
+}
+.placeholder{
+    height: 10svh;
+}
+.bild{
+    width: 60svw;
+    height: auto;
+    margin: 2svw;
+    padding: 3svw;
+    color: white;
+    background-color: rgb(23, 23, 119);
+    border-radius: 10px;
+    font-size: 24px;   
+}
+.navbut{
+    margin-top: 45svh;
+    color: #fff;
+    width: 10svw; 
+    height: 5svh;
+    font-size: 3svh;
+    font-weight: bold;
+}
